@@ -3,11 +3,11 @@ export class Slider {
     this.currentSlide = 0;
     this.slides = [
       {
-        image: '/src/imgs/gui-noseslide.jpg',
+        image: '/gui-noseslide.jpg',
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: '/src/imgs/camuflado.png',
+        image: '/src/camuflado.png',
         caption: 'Shapes Maple',
       },
       {
