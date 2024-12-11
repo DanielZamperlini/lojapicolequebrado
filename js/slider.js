@@ -3,27 +3,27 @@ export class Slider {
     this.currentSlide = 0;
     this.slides = [
       {
-        image: 'gui-noseslide.jpg',
+        image: '../imgs/gui-noseslide.jpg',
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: '/camuflado.png',
+        image: '../imgs/camuflado.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '../latino-rock.jpg',
+        image: '../imgs/latino-rock.jpg',
         caption: 'Daniel "Latino"',
       },
       {
-        image: 'graffity-colors.png',
+        image: '../imgs/graffity-colors.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/robson-smith.jpg',
+        image: '../imgs/robson-smith.jpg',
         caption: 'Robson',
       },
       {
-        image: 'imgs/graffiti-muro.png',
+        image: '../imgs/graffiti-muro.png',
         caption: 'Shapes Maple',
       },
       {
