@@ -3,47 +3,47 @@ export class Slider {
     this.currentSlide = 0;
     this.slides = [
       {
-        image: './imgs/fotos/gui-noseslide.jpg',
+        image: '/imgs/fotos/gui-noseslide.jpg',
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: './imgs/fotos/camuflado.png',
+        image: '/imgs/fotos/camuflado.png',
         caption: 'Shapes Maple',
       },
       {
-        image: './imgs/fotos/latino-rock.jpg',
+        image: '/imgs/fotos/latino-rock.jpg',
         caption: 'Daniel "Latino"',
       },
       {
-        image: './imgs/fotos/graffity-colors.png',
+        image: '/imgs/fotos/graffity-colors.png',
         caption: 'Shapes Maple',
       },
       {
-        image: './imgs/fotos/robson-smith.jpg',
+        image: '/imgs/fotos/robson-smith.jpg',
         caption: 'Robson',
       },
       {
-        image: './imgs/fotos/graffiti-muro.png',
+        image: '/imgs/fotos/graffiti-muro.png',
         caption: 'Shapes Maple',
       },
       {
-        image: './imgs/fotos/vitor.jpg',
+        image: '/imgs/fotos/vitor.jpg',
         caption: 'Vitor',
       },
       {
-        image: './imgs/fotos/visagem.jpg',
+        image: '/imgs/fotos/visagem.jpg',
         caption: 'Visagem',
       },
       {
-        image: './imgs/fotos/nino.jpg',
+        image: '/imgs/fotos/nino.jpg',
         caption: 'Nino "cara de gato"',
       },
       {
-        image: './imgs/fotos/gui.jpg',
+        image: '/imgs/fotos/gui.jpg',
         caption: 'wesley "Gnomo"',
       },
       {
-        image: './imgs/produtos/bone/BONEBLACKRED.jpg',
+        image: '/imgs/produtos/bone/BONEBLACKRED.jpg',
         caption: 'Bonés personalizados',
       },
     ];
