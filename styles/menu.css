@@ -1,0 +1,155 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #1a1a1a;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav-brand {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.nav-brand h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  background-image: linear-gradient(
+    35deg,
+    #da251c 0%,
+    #fef400 50%,
+    #00923f 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0.5rem;
+  width: 40%;
+  max-width: 300px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  color: #1a1a1a;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+}
+
+#cartCount {
+  background-color: #dc3545;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.categories-nav {
+  background-color: #2d2d2d;
+  padding: 0.5rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.categories-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0 1rem;
+  flex-wrap: nowrap;
+  min-width: max-content;
+}
+
+.categories-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem auto;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.categories-nav a:hover,
+.categories-nav a.active {
+  background-image: linear-gradient(
+    35deg,
+    #da251c 0%,
+    #fef400 50%,
+    #00923f 100%
+  );
+  color: #1a1a1a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-nav {
+    padding: 1rem;
+  }
+
+  .search-bar {
+    width: 100%;
+    order: 3;
+  }
+
+  .nav-brand {
+    order: 1;
+  }
+
+  .nav-actions {
+    order: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-brand h1 {
+    font-size: 1.4rem;
+  }
+
+  .categories-nav {
+    padding: 0.5rem 0;
+  }
+
+  .categories-nav ul {
+    gap: 1rem;
+  }
+}
+#logoPQ {
+  max-width: 50px;
+}
