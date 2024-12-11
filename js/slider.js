@@ -3,47 +3,47 @@ export class Slider {
     this.currentSlide = 0;
     this.slides = [
       {
-        image: 'public/gui-noseslide.jpg',
+        image: '/assets/gui-noseslide.jpg',
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: 'public/camuflado.png',
+        image: '/assets/camuflado.png',
         caption: 'Shapes Maple',
       },
       {
-        image: 'public/latino-rock.jpg',
+        image: '/assets/latino-rock.jpg',
         caption: 'Daniel "Latino"',
       },
       {
-        image: 'public/graffity-colors.png',
+        image: '/assets/graffity-colors.png',
         caption: 'Shapes Maple',
       },
       {
-        image: 'public/robson-smith.jpg',
+        image: '/assets/robson-smith.jpg',
         caption: 'Robson',
       },
       {
-        image: 'public/graffiti-muro.png',
+        image: '/assets/graffiti-muro.png',
         caption: 'Shapes Maple',
       },
       {
-        image: 'public/vitor.jpg',
+        image: '/assets/vitor.jpg',
         caption: 'Vitor',
       },
       {
-        image: 'public/visagem.jpg',
+        image: '/assets/visagem.jpg',
         caption: 'Visagem',
       },
       {
-        image: 'public/nino.jpg',
+        image: '/assets/nino.jpg',
         caption: 'Nino "cara de gato"',
       },
       {
-        image: 'public/gui.jpg',
+        image: '/assets/gui.jpg',
         caption: 'wesley "Gnomo"',
       },
       {
-        image: 'public/produtos/bone/BONEBLACKRED.jpg',
+        image: '/assets/produtos/bone/BONEBLACKRED.jpg',
         caption: 'Bonés personalizados',
       },
     ];
