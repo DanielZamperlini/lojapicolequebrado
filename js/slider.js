@@ -3,43 +3,43 @@ export class Slider {
     this.currentSlide = 0;
     this.slides = [
       {
-        image: 'imgs/fotos/gui-noseslide.jpg',
+        image: '/imgs/gui-noseslide.jpg',
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: 'imgs/fotos/camuflado.png',
+        image: '/imgs/camuflado.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/fotos/latino-rock.jpg',
+        image: '/imgs/latino-rock.jpg',
         caption: 'Daniel "Latino"',
       },
       {
-        image: '/imgs/fotos/graffity-colors.png',
+        image: '/imgs/graffity-colors.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/fotos/robson-smith.jpg',
+        image: '/imgs/robson-smith.jpg',
         caption: 'Robson',
       },
       {
-        image: '/imgs/fotos/graffiti-muro.png',
+        image: '/imgs/graffiti-muro.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/fotos/vitor.jpg',
+        image: '/imgs/vitor.jpg',
         caption: 'Vitor',
       },
       {
-        image: '/imgs/fotos/visagem.jpg',
+        image: '/imgs/visagem.jpg',
         caption: 'Visagem',
       },
       {
-        image: '/imgs/fotos/nino.jpg',
+        image: '/imgs/nino.jpg',
         caption: 'Nino "cara de gato"',
       },
       {
-        image: '/imgs/fotos/gui.jpg',
+        image: '/imgs/gui.jpg',
         caption: 'wesley "Gnomo"',
       },
       {
