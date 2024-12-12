@@ -11,39 +11,39 @@ export class Slider {
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/latino-rock.jpg',
+        image: '/latino-rock.jpg',
         caption: 'Daniel "Latino"',
       },
       {
-        image: '/imgs/graffity-colors.png',
+        image: '/graffity-colors.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/robson-smith.jpg',
+        image: '/robson-smith.jpg',
         caption: 'Robson',
       },
       {
-        image: '/imgs/graffiti-muro.png',
+        image: '/graffiti-muro.png',
         caption: 'Shapes Maple',
       },
       {
-        image: '/imgs/vitor.jpg',
+        image: '/vitor.jpg',
         caption: 'Vitor',
       },
       {
-        image: '/imgs/visagem.jpg',
+        image: '/visagem.jpg',
         caption: 'Visagem',
       },
       {
-        image: '/imgs/nino.jpg',
+        image: '/nino.jpg',
         caption: 'Nino "cara de gato"',
       },
       {
-        image: '/imgs/gui.jpg',
+        image: '/gui.jpg',
         caption: 'wesley "Gnomo"',
       },
       {
-        image: '/imgs/produtos/bone/BONEBLACKRED.jpg',
+        image: '/produtos/bone/BONEBLACKRED.jpg',
         caption: 'Bonés personalizados',
       },
     ];
