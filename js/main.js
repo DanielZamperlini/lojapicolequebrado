@@ -37,7 +37,7 @@ userManager.onUserNameChange = (name) => {
     navActions.insertBefore(userNameElement, cartIcon);
   }
 
-  userNameElement.textContent = `Olá, ${name} !`;
+  userNameElement.textContent = `Olá, ${name}!`;
 };
 
 function filterProducts() {
@@ -78,24 +78,57 @@ function updateCartDisplay() {
 
 function renderProducts() {
   const filteredProducts = filterProducts();
-  productsContainer.innerHTML = filteredProducts
-    .map(
-      (product) => `
-        <div class="product-card">
-            <img src="${product.image}" alt="${
-        product.name
-      }" class="product-image">
-            <h3 class="product-title">${product.name}</h3>
-            <p class="product-price">R$ ${product.price.toFixed(2)}</p>
-            <button class="add-to-cart" onclick="window.addToCart(${
-              product.id
-            })">
-                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
-            </button>
-        </div>
-    `,
-    )
-    .join('');
+
+  if (filteredProducts.length === 0) {
+    productsContainer.innerHTML = `
+            <div class="no-products-message">
+                <i class="fas fa-search" style="font-size: 3rem; color: #dc3545; margin-bottom: 1rem;"></i>
+                <h2>Nenhum produto encontrado</h2>
+                <p>Tente uma nova busca com termos diferentes ou navegue pelas categorias.</p>
+                ${
+                  searchQuery
+                    ? `<button class="clear-search-button" onclick="window.clearSearchAndRender()">
+                    <i class="fas fa-times"></i> Limpar busca
+                </button>`
+                    : ''
+                }
+            </div>
+        `;
+  } else {
+    productsContainer.innerHTML = filteredProducts
+      .map(
+        (product) => `
+            <div class="product-card">
+                <img src="${product.image}" alt="${
+          product.name
+        }" class="product-image">
+                <h3 class="product-title">${product.name}</h3>
+                <p class="product-price">R$ ${product.price.toFixed(2)}</p>
+                <button class="add-to-cart" onclick="window.addToCart(${
+                  product.id
+                })">
+                    <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+                </button>
+            </div>
+        `,
+      )
+      .join('');
+  }
+}
+
+function clearSearch() {
+  searchInput.value = '';
+  searchQuery = '';
+}
+
+function switchToAllCategory() {
+  currentCategory = 'all';
+  categoryLinks.forEach((link) => {
+    link.classList.remove('active');
+    if (link.dataset.category === 'all') {
+      link.classList.add('active');
+    }
+  });
 }
 
 // Funções globais para os eventos onclick
@@ -110,6 +143,11 @@ window.addToCart = (productId) => {
 window.removeFromCart = (productId) => {
   cart.removeItem(productId);
   updateCartDisplay();
+};
+
+window.clearSearchAndRender = () => {
+  clearSearch();
+  renderProducts();
 };
 
 // Event Listeners
@@ -132,12 +170,18 @@ sendToWhatsAppButton.addEventListener('click', () => {
 
 searchButton.addEventListener('click', () => {
   searchQuery = searchInput.value;
+  if (searchQuery) {
+    switchToAllCategory();
+  }
   renderProducts();
 });
 
 searchInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
     searchQuery = searchInput.value;
+    if (searchQuery) {
+      switchToAllCategory();
+    }
     renderProducts();
   }
 });
@@ -148,6 +192,7 @@ categoryLinks.forEach((link) => {
     categoryLinks.forEach((l) => l.classList.remove('active'));
     link.classList.add('active');
     currentCategory = link.dataset.category;
+    clearSearch();
     renderProducts();
   });
 });

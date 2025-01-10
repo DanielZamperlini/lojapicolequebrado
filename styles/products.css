@@ -91,3 +91,60 @@
     font-size: 1rem;
   }
 }
+.no-products-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-products-message h2 {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.no-products-message p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.clear-search-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.clear-search-button:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .no-products-message {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .no-products-message {
+    padding: 1.5rem;
+  }
+
+  .no-products-message h2 {
+    font-size: 1.2rem;
+  }
+
+  .no-products-message p {
+    font-size: 0.9rem;
+  }
+}
