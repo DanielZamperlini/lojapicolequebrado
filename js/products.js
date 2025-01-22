@@ -48,6 +48,27 @@ export const products = [
     image: 'produtos/parafuso/parafuso.jpg',
     category: 'parafusos',
   },
+  {
+    id: 7,
+    name: 'Parafuso de Base Element',
+    price: 39.99,
+    image: 'produtos/parafuso/parafusoelement.png',
+    category: 'parafusos',
+  },
+  {
+    id: 7,
+    name: 'Parafuso de Base chocolate',
+    price: 39.99,
+    image: 'produtos/parafuso/parafusochocolate.png',
+    category: 'parafusos',
+  },
+  {
+    id: 7,
+    name: 'Parafuso de Base thrasher',
+    price: 39.99,
+    image: 'produtos/parafuso/parafusotrasher.png',
+    category: 'parafusos',
+  },
   // {
   //   id: 8,
   //   name: 'Boné Picolé Quebrado Esgotado',
