@@ -62,13 +62,13 @@ export const products = [
     image: 'produtos/parafuso/parafusochocolate.png',
     category: 'parafusos',
   },
-  {
-    id: 7,
-    name: 'Parafuso de Base thrasher',
-    price: 39.99,
-    image: 'produtos/parafuso/parafusotrasher.png',
-    category: 'parafusos',
-  },
+  // {
+  //   id: 7,
+  //   name: 'Parafuso de Base thrasher',
+  //   price: 39.99,
+  //   image: 'produtos/parafuso/parafusotrasher.png',
+  //   category: 'parafusos',
+  // },
   // {
   //   id: 8,
   //   name: 'Boné Picolé Quebrado Esgotado',
@@ -125,13 +125,13 @@ export const products = [
     image: 'produtos/rolamento/bonessuper.jpg',
     category: 'rolamentos',
   },
-  {
-    id: 16,
-    name: 'Shape Anti action',
-    price: 99.99,
-    image: 'produtos/shapes/anti2.jpg',
-    category: 'shapes',
-  },
+  // {
+  //   id: 16,
+  //   name: 'Shape Anti action',
+  //   price: 99.99,
+  //   image: 'produtos/shapes/anti2.jpg',
+  //   category: 'shapes',
+  // },
   {
     id: 17,
     name: 'Rodas Next',
