@@ -83,13 +83,13 @@ export const products = [
   //   image: 'produtos/amortecedor/amortecedores.jpg',
   //   category: 'amortecedores',
   // },
-  {
-    id: 10,
-    name: 'Lixa Vinho',
-    price: 59.99,
-    image: 'produtos/lixavinho.jpg',
-    category: 'acessorios',
-  },
+  // {
+  //   id: 10,
+  //   name: 'Lixa Vinho',
+  //   price: 59.99,
+  //   image: 'produtos/lixavinho.jpg',
+  //   category: 'acessorios',
+  // },
   {
     id: 11,
     name: 'Lixa Nacional',
@@ -139,13 +139,13 @@ export const products = [
     image: 'produtos/next.webp',
     category: 'rodas',
   },
-  {
-    id: 18,
-    name: 'truck skate',
-    price: 119.99,
-    image: 'produtos/skate/truck.jpg',
-    category: 'trucks',
-  },
+  // {
+  //   id: 18,
+  //   name: 'truck skate',
+  //   price: 119.99,
+  //   image: 'produtos/skate/truck.jpg',
+  //   category: 'trucks',
+  // },
   {
     id: 19,
     name: 'Parafuso colorido PIG',
@@ -160,13 +160,13 @@ export const products = [
     image: 'produtos/parafuso/porcadourada.jpg',
     category: 'rodas',
   },
-  {
-    id: 21,
-    name: 'porca color nuts lilás',
-    price: 24.99,
-    image: 'produtos/parafuso/porcalilas.jpg',
-    category: 'rodas',
-  },
+  // {
+  //   id: 21,
+  //   name: 'porca color nuts lilás',
+  //   price: 24.99,
+  //   image: 'produtos/parafuso/porcalilas.jpg',
+  //   category: 'rodas',
+  // },
   {
     id: 22,
     name: 'porca color nuts prata',
