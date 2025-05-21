@@ -51,14 +51,14 @@ export const products = [
   {
     id: 7,
     name: 'Parafuso de Base Element',
-    price: 39.99,
+    price: 44.99,
     image: 'produtos/parafuso/parafusoelement.png',
     category: 'parafusos',
   },
   {
     id: 7,
     name: 'Parafuso de Base chocolate',
-    price: 39.99,
+    price: 44.99,
     image: 'produtos/parafuso/parafusochocolate.png',
     category: 'parafusos',
   },
@@ -149,7 +149,7 @@ export const products = [
   {
     id: 19,
     name: 'Parafuso colorido PIG',
-    price: 39.99,
+    price: 44.99,
     image: 'produtos/parafuso/parafusopig.jpg',
     category: 'parafusos',
   },
