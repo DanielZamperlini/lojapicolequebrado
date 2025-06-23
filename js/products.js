@@ -129,7 +129,7 @@ export const products = [
     id: 16,
     name: 'TRUCK ESSENCIA STRONGER',
     price: 310.0,
-    image: 'news/INTRUDER.jpg',
+    image: 'news/stronger.jpeg',
     category: 'trucks',
   },
   {
@@ -142,8 +142,8 @@ export const products = [
   {
     id: 18,
     name: 'truck Intruder 139mm',
-    price: 300.0,
-    image: 'news/truck.jpeg',
+    price: 310.0,
+    image: 'news/INTRUDER.jpg',
     category: 'trucks',
   },
   {
