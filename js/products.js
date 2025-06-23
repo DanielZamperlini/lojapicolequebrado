@@ -6,13 +6,13 @@ export const products = [
     image: 'produtos/skate/cbgangbeiseball.png',
     category: 'completos',
   },
-  {
-    id: 2,
-    name: 'Skate Completo cbgang stella',
-    price: 349.99,
-    image: 'produtos/skate/cbgangstella.png',
-    category: 'completos',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Skate Completo cbgang stella',
+  //   price: 349.99,
+  //   image: 'produtos/skate/cbgangstella.png',
+  //   category: 'completos',
+  // },
   {
     id: 3,
     name: 'Skate Completo Picolé Quebrado graffity',
