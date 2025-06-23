@@ -129,7 +129,7 @@ export const products = [
     id: 16,
     name: 'TRUCK ESSENCIA STRONGER',
     price: 310.0,
-    image: 'news/stronger.jpeg',
+    image: 'news/INTRUDER.jpg',
     category: 'trucks',
   },
   {
