@@ -141,10 +141,10 @@ export const products = [
   },
   {
     id: 18,
-    name: 'Rodas Cb',
-    price: 180.0,
-    image: 'news/rodamosca.jpeg',
-    category: 'rodas',
+    name: 'truck Intruder 139mm',
+    price: 300.0,
+    image: 'news/truck.jpeg',
+    category: 'trucks',
   },
   {
     id: 19,
