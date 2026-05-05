@@ -7,7 +7,7 @@ export class Slider {
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: '/camuflado.png',
+        image: '/skul.jpeg',
         caption: 'Shapes Maple',
       },
       {
@@ -15,7 +15,7 @@ export class Slider {
         caption: 'Daniel "Latino"',
       },
       {
-        image: '/graffity-colors.png',
+        image: '/sweet.jpeg',
         caption: 'Shapes Maple',
       },
       {
@@ -23,7 +23,7 @@ export class Slider {
         caption: 'Robson',
       },
       {
-        image: '/graffiti-muro.png',
+        image: '/sweetskul.jpeg',
         caption: 'Shapes Maple',
       },
       {
@@ -43,7 +43,7 @@ export class Slider {
         caption: 'wesley "Gnomo"',
       },
       {
-        image: '/produtos/bone/BONEBLACKRED.jpg',
+        image: '/bonesfivepanel.jpeg',
         caption: 'Bonés personalizados',
       },
     ];
