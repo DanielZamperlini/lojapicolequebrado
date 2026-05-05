@@ -1,11 +1,11 @@
 export const products = [
-  {
-    id: 1,
-    name: 'Skate Completo cbgang beiseball',
-    price: 349.99,
-    image: 'produtos/skate/cbgangbeiseball.png',
-    category: 'completos',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Skate Completo cbgang beiseball',
+  //   price: 349.99,
+  //   image: 'produtos/skate/cbgangbeiseball.png',
+  //   category: 'completos',
+  // },
   {
     id: 2,
     name: 'Kit Segurança Shock Infantil (joelheira, cotoveleira)',
@@ -29,14 +29,14 @@ export const products = [
   },
   {
     id: 5,
-    name: 'Shape Picolé Quebrado graffity',
+    name: 'Shape Picolé Quebrado skul',
     price: 249.99,
     image: 'produtos/shapes/shapeskul.jpeg',
     category: 'shapes',
   },
   {
     id: 6,
-    name: 'Shape Picolé Quebrado muro',
+    name: 'Shape Picolé Quebrado sweet',
     price: 249.99,
     image: 'produtos/shapes/shapesweet.jpeg',
     category: 'shapes',
