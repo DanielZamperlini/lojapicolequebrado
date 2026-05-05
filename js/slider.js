@@ -7,7 +7,7 @@ export class Slider {
         caption: 'Wesley "Gnomo"',
       },
       {
-        image: '/skul.jpeg',
+        image: '/skuls.jpeg',
         caption: 'Shapes Maple',
       },
       {
