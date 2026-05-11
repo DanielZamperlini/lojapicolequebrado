@@ -44,7 +44,7 @@ export class Slider {
       },
       {
         image: '/bonesfivepanel.jpeg',
-        caption: 'Bonés personalizados',
+        caption: 'Peças para seu skate',
       },
     ];
 
