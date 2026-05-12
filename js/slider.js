@@ -23,7 +23,7 @@ export class Slider {
         caption: 'Robson',
       },
       {
-        image: '/sweetskul.jpeg',
+        image: '/sweetskull.jpeg',
         caption: 'Shapes Maple',
       },
       {
